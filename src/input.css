@@ -1,0 +1,18 @@
+@import "tailwindcss";
+.imge {
+    box-shadow: 8px 8px 0px 0px #CBC6F4;
+
+}
+.imge1{
+    box-shadow: 8px 8px 0px 0px #E7CB43;
+
+    
+}
+.imge2{
+    box-shadow: 8px 8px 0px 0px #A2D4C5;
+
+}
+.imge3{
+    box-shadow: 8px 8px 0px 0px #AF4920;
+
+}
