@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/output.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
     <title>Document</title>
-</head>
-<body>
-    <header class="bg-[rgba(251, 248, 245, 1)] m-5 " >
-        <div class="flex flex-column items-center justify-center ml-20px bg-[rgba(251, 248, 245, 1)] pb-[120px]">
-            <nav class="flex items-center justify-center gap-[191px] ">
+  </head>
+
+  <body>
+    <!-- <header class="bg-[rgba(251, 248, 245, 1)] " >
+        <div class="flex flex-column items-center justify-center  bg-[rgba(251, 248, 245, 1)] pb-[120px]">
+            <nav class="flex items-center justify-between gap-[120px] ">
             <ul class="flex items-center justify-center gap-6">
                 <li class="font-Roboto font-normal text-base text-2xl">Furniture</li>
                 <li class="font-Roboto font-normal text-base text-2xl">Why Feather</li>
@@ -37,8 +38,8 @@
        
             </nav>
         </div>
-        <section class="flex items-center justify-center gap-[50px] relative">
-            <div class="flex flex-col justify-between gap-5">
+        <section class="flex items-center justify-center gap-[50px] ">
+            <div class="flex max-w-[50%] justify-between gap-5">
                 <h1 class="font-Roboto font-normal text-[64px] text-3xl">Curated and <br>Convenient</h1>
                 <p class="font-Roboto font-normal text-18px text-x text-[#000000] ">We've built our offerings on the principle that everyone deserves <br>high-quality design without the high cost. We offer elevated rental <br>inventory, to transform your space. Reuse and recycle - we make <br>the decision as light as a “feather”</p>
                 <button class="w-[154px] h-[60px] rounded-[30px] bg-[#E9672B]">Get Started</button>
@@ -47,38 +48,102 @@
                 <img src="./img/IMAGE.png" alt="">
             </div>
            </section>
-       </header>
-       <main class="flex flex-col justify-center items-center gap-[40px]">
-        <h1 class="font-Roboto font-normal text-[48px] text-xl">Shop by Room</h1>
-        <div class="flex items-center justify-center gap-[36px] ">
-    
-               <div class="flex flex-col items-center  w-[248px] h-[257px] rounded-[2px] border-solid border-[3px] border-[#E9672B] imge ">
-                 <img class=" h-[193px] mb-[15px]" src="./img/IMAGE1.png" alt="">
-                 <h1 class="font-Roboto font-normal text-[17px] text-2xl">Living Room</h1>
-                 
-                </div>
-                
-               <div class="flex flex-col items-center  w-[248px] h-[257px] rounded-[2px] border-solid border-[3px] border-[#225DCA] imge1 ">
-                <img class=" h-[193px] mb-[15px]" src="./img/IMAGE3.png" alt="">
-                <h1 class="font-Roboto font-normal text-[17px] text-2xl">Bedroom</h1>
-                
-               </div>
-               
-               <div class="flex flex-col items-center  w-[248px] h-[257px] rounded-[2px] border-solid border-[3px] border-[#242947] imge2 ">
-                <img class=" h-[193px] mb-[15px]" src="./img/IMAGE2.png" alt="">
-                <h1 class="font-Roboto font-normal text-[17px] text-2xl">Home Office</h1>
-                
-               </div>
-               
-               <div class="flex flex-col items-center  w-[248px] h-[257px] rounded-[2px] border-solid border-[3px] border-[#DE4333] imge3 ">
-                <img class=" h-[193px] mb-[15px]" src="./img/IMAGE4.png" alt="">
-                <h1 class="font-Roboto font-normal text-[17px] text-2xl">Dining Room</h1>
-                
-               </div>
-                
-      
+       </header> -->
+
+    <header>
+      <nav class="container">
+        <div class="">
+          <div class="flex justify-between items-center h-[75px] text-[16px] font-[400] ">
+            <ul class="flex gap-[36px] max-[1000px]:hidden">
+              <li>
+                <a href="#"><span>Furniture</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Why Feather</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Feather for Business</span></a>
+              </li>
+              
+            </ul>
+            <div>
+              <img src="./img/logo.svg" alt="" />
+            </div>
+            <div class="flex gap-[50px]">
+              <ul class="flex gap-[36px] max-[1000px]:hidden">
+                <li>
+                  <a href="#"><span>Check if We Deliver</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>Search</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>Account</span></a>
+                </li>
+              
+              </ul>
+              <img src="./img/save.svg" alt="" />
+            </div>
+          </div>
         </div>
+      </nav>
+    </header>
+   <section>
+    <div class="container">
+        <div>
+            <div class="flex justify-between items-center gap-[35px] max-[1000px]:flex-col-reverse max-[1000px]:justify-center px-[20px]">
+                <div class="w-[50%] max-[1000px]:w-[100%]">
+                    <h1 class="font-Roboto font-normal text-[64px] text-3xl">Curated and Convenient</h1>
+                    <p class="font-Roboto font-normal text-18px text-x text-[#000000] mt-[18px] mb-[46px]">We've built our offerings on the principle that everyone deserves high-quality design without the high cost. We offer elevated rental inventory, to transform your space. Reuse and recycle - we make the decision as light as a “feather”</p>
+                    <button class="w-[154px] h-[60px] rounded-[30px] bg-[#E9672B]">Get Started</button>
+                </div>
+                <div class="w-[50%] max-[1000px]:w-[100%]">
+                    <img src="./img/IMAGE.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+    <main
+      class="flex flex-col justify-center items-center gap-[40px] mb-[20px]"
+    >
+      <h1 class="font-Roboto font-normal text-[48px] text-xl">Shop by Room</h1>
+      <div class="flex items-center justify-center gap-[36px]  max-[1000px]:flex-wrap">
+        <div
+          class="flex flex-col items-center w-[248px] h-[257px] rounded-[2px] border-solid border-[3px] border-[#E9672B] imge "
+        >
+          <img class="h-[193px] mb-[15px]" src="./img/IMAGE1.png" alt="" />
+          <h1 class="font-Roboto font-normal text-[17px] text-2xl">
+            Living Room
+          </h1>
+        </div>
+
+        <div
+          class="flex flex-col items-center w-[248px] h-[257px] rounded-[2px] border-solid border-[3px] border-[#225DCA] imge1"
+        >
+          <img class="h-[193px] mb-[15px]" src="./img/IMAGE3.png" alt="" />
+          <h1 class="font-Roboto font-normal text-[17px] text-2xl">Bedroom</h1>
+        </div>
+
+        <div
+          class="flex flex-col items-center w-[248px] h-[257px] rounded-[2px] border-solid border-[3px] border-[#242947] imge2"
+        >
+          <img class="h-[193px] mb-[15px]" src="./img/IMAGE2.png" alt="" />
+          <h1 class="font-Roboto font-normal text-[17px] text-2xl">
+            Home Office
+          </h1>
+        </div>
+
+        <div
+          class="flex flex-col items-center w-[248px] h-[257px] rounded-[2px] border-solid border-[3px] border-[#DE4333] imge3"
+        >
+          <img class="h-[193px] mb-[15px]" src="./img/IMAGE4.png" alt="" />
+          <h1 class="font-Roboto font-normal text-[17px] text-2xl">
+            Dining Room
+          </h1>
+        </div>
+      </div>
     </main>
     <script src="./js/add.js"></script>
-</body>
+  </body>
 </html>
